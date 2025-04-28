@@ -1,0 +1,8 @@
+{
+  "name": "Strategy 1",
+  "assetName": "EURUSD=X",
+  "startDate": "2024-08-31",
+  "endDate": "2024-09-05",
+  "interval": "5m",
+  "backtest_fileName": "Backtester.py"
+}
