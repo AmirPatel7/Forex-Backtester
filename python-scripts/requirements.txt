@@ -1,0 +1,4 @@
+yfinance
+backtesting
+scikit-learn
+pyarrow
