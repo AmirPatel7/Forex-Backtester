@@ -1,0 +1,5 @@
+Interactive Web Interface for Algorithmic Trading Strategy Development and Backtesting in FOREX (SPA1)
+
+Demi: Louis de Jager, 24908134@sun.ac.za
+Company: SpatialEdge				
+Company contact: Stephan Nel, stephan.nel@spatialedge.ai

@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+/* Apply height and width to essential elements */
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif; /* Setting the default font for the application */
+}
+
+/* Styles for the chart container */
+#chart {
+  height: 60%; /* Sets the height of the chart */
+  margin-top: 100px; /* Adds space above the chart */
+  margin-bottom: 200px; /* Adds space below the chart */
+  width: 99%; /* Sets the width of the chart to almost full */
+}
+
+/* Flexbox layout for the app */
+.app {
+  display: flex; /* Enables flexbox layout */
+  position: relative; /* Allows absolutely positioned children to be positioned relative to this container */
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+/* Track styles for scrollbar */
+::-webkit-scrollbar-track {
+  background: #e0e0e0; /* Background color of the scrollbar track */
+}
+
+/* Handle styles for scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar handle */
+}
+
+/* Handle styles on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker color when hovered */
+}

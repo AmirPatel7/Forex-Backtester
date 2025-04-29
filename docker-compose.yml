@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    environment:
+      - DOCKER=true
+    container_name: FOREX-Backtester
+    volumes:
+      - ./config:/config
+    ports:
+      - 3000:3000
+      - 5000:5000
+      - 8080:8080
+    restart: unless-stopped
